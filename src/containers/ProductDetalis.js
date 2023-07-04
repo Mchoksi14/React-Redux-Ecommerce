@@ -29,7 +29,7 @@ const ProductDetalis = () => {
   // }
 
   useEffect(() => {
-    if (productId && productId !== "") dispatch(selectProdduct(productId));
+    if (productId && productId !== "") {dispatch(selectProdduct(productId));}
     return () => {
       dispatch(removeSelectProuct());
     }
