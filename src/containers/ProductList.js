@@ -31,7 +31,7 @@ const ProductList = () => {
     useEffect(()=>{
     // GetProduct();
     dispatch(getAllProduct());
-    },[])
+    })
   return (
     <>
         <Header/>
