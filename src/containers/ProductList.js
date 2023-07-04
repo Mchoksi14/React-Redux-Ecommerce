@@ -2,12 +2,12 @@ import React, { useEffect } from 'react'
 import Header from './Header'
 import { useDispatch, useSelector } from 'react-redux'
 import ProductComponet from './ProductComponet';
-import axios from 'axios';
-import { getAllProduct, setProduct } from '../redux/actions/ProductAction';
+// import axios from 'axios';
+import { getAllProduct } from '../redux/actions/ProductAction';
 
 const ProductList = () => {
     const product=useSelector((state)=>state);
-    // console.log(product);
+    console.log(product);
     const dispatch=useDispatch();
 
     // const GetProduct=()=>{

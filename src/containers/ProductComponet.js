@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import Header from './Header';
+// import Header from './Header';
 import { Link } from 'react-router-dom';
 
 const ProductComponet = () => {

@@ -33,7 +33,7 @@ const ProductDetalis = () => {
    return ()=>{
     dispatch(removeSelectProuct());
    }
-  }, [productId])
+  },[productId])
 
 
   return (
